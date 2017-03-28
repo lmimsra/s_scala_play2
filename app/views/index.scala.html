@@ -1,20 +1,20 @@
 @*
- * This template takes a single argument, a String containing a
- * message to display.
- *@
+* This template takes a single argument, a String containing a
+* message to display.
+*@
 @(message: String)
-
-@*
- * Call the `main` template with two arguments. The first
- * argument is a `String` with the title of the page, the second
- * argument is an `Html` object containing the body of the page.
- *@
-@main("Welcome to Play") {
-
-    @*
-     * Get an `Html` object by calling the built-in Play welcome
-     * template and passing a `String` message.
-     *@
-    @play20.welcome(message, style = "Scala")
-
-}
+	@*
+	* Call the `main` template with two arguments. The first
+	* argument is a `String` with the title of the page, the second
+	* argument is an `Html` object containing the body of the page.
+	*@
+	@main("Scala Top Page") {
+		@*
+		* Get an `Html` object by calling the built-in Play welcome
+		* template and passing a `String` message.
+		*@
+		@*play20.welcome(message, style = "Scala")*@
+		<h1 style="text-align: center">play2.5.Xのトップ画面</h1>
+		 メモついでに色々置いていきます
+		<script src="https://gist.github.com/lmimsra/f0208e70745014f8ccd978a9b42d8f0e.js"></script>
+	}
